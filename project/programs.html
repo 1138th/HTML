@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Туристические программы</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="../jquery.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand"><img src="images/ksu-logo.gif" alt="logo" style="width:50px;"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="page.html">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Компания <i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="about.html">О нас</a>
+                    <a href="partnership.html">Сотрудничество</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="programs.html">Туристические программы</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container" style="margin-top:120px">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Доступные туристические программы</h2>
+                <div class="tab">
+                    <button class="tablinks" onmouseover="openCity(event, 'London')">Лондон</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Washington')">Вашингтон</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Paris')">Париж</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Токио</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Cairo')">Каир</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Berlin')">Берлин</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Ankara')">Анкара</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Seoul')">Сеул</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Pekin')">Пекин</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Sydney')">Сидней</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Nuuk')">Нуук</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Dublin')">Дублин</button>
+                </div>
+                <div id="London" class="tabcontent">
+                    <img class="img-fluid" src="images/london.jpg" alt="london">
+                    <p>Лондон – столица Англии и Соединенного Королевства. История этого современного города уходит во времена римлян. В самом центре Лондона находится здание парламента – Вестминстерский дворец, а также знаменитая часовая башня Биг-Бен и Вестминстерское аббатство. Эта церковь является местом коронации британских монархов. На противоположном берегу Темзы расположено колесо обозрения "Лондонский глаз", с которого открывается панорамный вид не только на южный берег, но и на весь город.</p>
+                    <p>Lorem ipsum dolor sit amet, ut malorum discere pro, ei pro volutpat deseruisse, per habeo laoreet in. Est laudem ubique pertinacia ut, iusto veritus albucius mea ea. Eos cu augue intellegat, graeco corrumpit definitiones nam ei, vide omnium vivendo eu sit. Soleat placerat invenire ei cum.</p>
+                    <p>Eos fuisset noluisse accusata ex, summo prompta molestie qui ad, congue aliquam antiopam usu ut. Nisl probatus mnesarchum sed ex. Essent scaevola efficiantur cu qui, has et vide aliquam conceptam, usu eu putent democritum. Mei et noster impetus scaevola, vis copiosae insolens et. Mei liber primis euripidis ad, at agam tritani accumsan mei.</p>
+                </div>
+                <div id="Washington" class="tabcontent">
+                    <img class="img-fluid" src="images/washington.jpg" alt="washington">
+                    <p>Столица США Вашингтон – это небольшой город в округе Колумбия, между штатами Мэриленд и Виргиния. Его отличает множество неоклассических памятников и строений, включая знаменитые три здания, где расположены три ветви власти США: Капитолий, Белый дом и здание Верховного суда. В городе также находятся знаменитые музеи и концертные залы, в том числе Кеннеди-центр.</p>
+                    <p>Lorem ipsum dolor sit amet, nonumy debitis imperdiet vel ex. Eam ei dolorum efficiantur neglegentur, unum nusquam id has. Erroribus signiferumque an duo, mel in autem partem elaboraret. Id vide salutatus appellantur sit, ullum postea propriae id eam, illum liberavisse per te.</p>
+                    <p>At his labore everti epicurei. Mea doctus scripserit ex. Solum antiopam signiferumque ea duo, tale vide cu duo, ad per porro invenire convenire. Per habeo efficiantur cu, tritani sensibus honestatis eos ex, mei id verear consulatu concludaturque. Epicuri interesset ut mei, quis aliquid appetere eam te.</p>
+                </div>
+                <div id="Paris" class="tabcontent">
+                    <img class="img-fluid" src="images/paris.jpg" alt="paris">
+                    <p>Столица Франции Париж – один из главных европейских городов и мировой центр культуры, искусства, моды и гастрономии. В центральной части города, построенной в XIX веке, проходят широкие бульвары и протекает река Сена. Самые известные достопримечательности Парижа – Эйфелева башня и собор Парижской Богоматери в готическом стиле, возведенный в XII веке. Также город славится своими многочисленными кафе и бутиками с одеждой от известных модельеров на улице Фобур-Сент-Оноре.</p>
+                    <p>Lorem ipsum dolor sit amet, ne docendi theophrastus quo. Eam at equidem fabellas, enim esse omittantur te mei, volumus accusam eu ius. Cu duo partem graeci sadipscing. An vel dolor luptatum. Cu his alterum recteque, at cum clita legimus.</p>
+                    <p>Et justo adipisci sea, accusata signiferumque at vis, tota natum petentium his te. Mei graeci mediocrem conclusionemque no. Populo feugiat consetetur sed ex. Graeco sanctus adipisci vel ex, at idque tollit utinam nec, euismod omnesque ponderum sed ad. Eos at populo putent, ut ius enim aeterno appetere. Ea vix quod petentium. Eligendi detraxit nam ea.</p>
+                </div>
+                <div id="Tokyo" class="tabcontent">
+                    <img class="img-fluid" src="images/tokyo.jpg" alt="tokyo">
+                    <p>Токио – столица Японии, шумный город, в котором современные небоскребы с неоновой подсветкой сочетаются с традиционными храмами. Среди деревьев расположен богато украшенный синтоистский храм Мэйдзи, известный своими высокими воротами. А в огромных общественных садах находится Императорский дворец. В городе много музеев. В Токийском национальном музее представлены произведения классического искусства, а в музее Эдо-Токио можно увидеть копию театра кабуки.</p>
+                    <p>Lorem ipsum dolor sit amet, minimum pericula ad sit, eu malis sensibus adolescens eam. Omnesque oporteat salutandi ne eam. Eu cum saepe tibique. Pericula reformidans no pri, mei ne fuisset nominavi dissentiunt.</p>
+                    <p>Te per error malorum, epicuri legendos no vel. Unum choro apeirian eum no. Enim euismod philosophia et est. Exerci consetetur eu quo. Dicta nostrum sed ea, habeo possim et cum, pri ad inani dolores nominati.</p>
+                </div>
+                <div id="Cairo" class="tabcontent">
+                    <img class="img-fluid" src="images/cairo.jpg" alt="cairo">
+                    <p>Каир – многолюдная столица Египта на реке Нил. Сердце города – площадь Тахрир, на которой расположен огромный Египетский музей с мумиями фараонов и позолоченными деревянными статуями Тутанхамона. В Гизе, пригороде Каира, находятся всемирно известные пирамиды и Большой сфинкс, датируемый XXVI в. до н. э. С Каирской телебашни высотой 187 м, возведенной в зеленом районе Замалек на острове Гезира, открывается великолепный вид на город.</p>
+                    <p>Lorem ipsum dolor sit amet, ad harum detracto nec, libris pertinax cu mea. Hinc voluptua invenire pri id. Per sale gloriatur ex. Eum clita recteque ex, sed vidit qualisque salutatus an.</p>
+                    <p>Aperiam luptatum duo ut. Dicta platonem vix id. In sale aperiri denique sed, in delenit torquatos adolescens per, sapientem temporibus ut sed. Case eruditi vel ex, putant nonumes platonem in sit. Duis atqui cetero an eum. Has ea solum feugait quaestio.</p>
+                </div>
+                <div id="Berlin" class="tabcontent">
+                    <img class="img-fluid" src="images/berlin.jpg" alt="berlin">
+                    <p>Берлин – столица Германии, история которой восходит к XIII в. О непростой истории города в XX в. напоминают Мемориал жертвам Холокоста и граффити на руинах Берлинской стены. Бранденбургские ворота, возведенные в XVIII в., известны как символ воссоединения Берлина, разделенного во время Холодной войны на две части. Также город славится своими художественными галереями и современными достопримечательностями, например построенной в 1963 г. филармонией золотого цвета с крышей в форме циркового шатра.</p>
+                    <p>Lorem ipsum dolor sit amet, sea probo audiam integre ex. Et mei summo tempor, everti iisque albucius sea ad. Vis erant nobis ex, fugit altera usu ex. Ut duo ceteros adversarium, eu everti audire mei, ad per utinam laboramus. Ut sea nihil vocibus intellegam.</p>
+                    <p>Eam putent utroque contentiones no. Choro munere explicari ne nam. Utamur verterem est te, placerat deterruisset eam eu. Dictas blandit his et, timeam copiosae honestatis te mel. Fabulas utroque epicurei id sea.</p>
+                </div>
+                <div id="Ankara" class="tabcontent">
+                    <img class="img-fluid" src="images/ankara.jpg" alt="ankara">
+                    <p>Анкара – многонациональная столица Турции, расположенная в регионе Центральная Анатолия. Город славится своим Оперным театром, в котором выступают оперная и балетная труппы, Президентским симфоническим оркестром и несколькими национальными театрами. Над городом возвышается грандиозный мавзолей Аныткабир с могилой Кемаля Ататюрка – первого президента современной Турции, который в 1923 году перенес столицу в Анкару.</p>
+                    <p>Lorem ipsum dolor sit amet, qui ei malorum accusata, equidem fabellas theophrastus ei vix, vix error noster quaestio ei. Quo homero adversarium ne. In percipit philosophia sit, dicit delectus eam in. Sed vocibus placerat consetetur ea. Est erant facilisis at, vix te singulis inimicus.</p>
+                    <p>Vis enim eleifend at, laoreet vivendo eu nec. Sint porro fastidii ius et, et quo scripserit philosophia interpretaris. Facete perfecto menandri nam ex, admodum alienum eum in, no eum probo tation mollis. Id aperiri delicata sententiae duo. Nemore menandri est eu, vel no latine scripta equidem, ius cu voluptatum necessitatibus. Nec doming nemore molestiae ei, vel ad liber nonumes suscipit.</p>
+                </div>
+                <div id="Seoul" class="tabcontent">
+                    <img class="img-fluid" src="images/seoul.jpg" alt="seoul">
+                    <p>Сеул — город, столица Республики Корея. Образует единственный в стране город особого подчинения, разделённый на 25 самоуправляемых районов. Официальное название города — Город особого подчинения Сеул. С 1394 года под названием Ханян — столица Кореи, с 1948 года под названием Сеул — столица Республики Корея. Во время Корейской войны город был сильно разрушен. Сохранились остатки крепостной стены с воротами, восстановлен дворцовый комплекс Кёнбоккун XIV века. Имеются объекты Всемирного наследия ЮНЕСКО.</p>
+                    <p>Lorem ipsum dolor sit amet, ferri illud epicurei ut ius, vix veniam accusata cu, eam purto dolorum vocibus ne. Eos ex malorum pericula inciderint. Tota aperiri mei no, ferri argumentum pro in. No iracundia elaboraret ullamcorper vis, et mea laudem equidem. Est ex nulla partem.</p>
+                    <p>His error simul ea, at iriure corpora mea. Sumo pertinax inciderint his no, at splendide incorrupte pro, cu vim exerci voluptaria. Vix sumo pertinax ei. Dico explicari vituperatoribus an quo, quod adhuc consequuntur eos an. At purto soluta placerat vis.</p>
+                </div>
+                <div id="Pekin" class="tabcontent">
+                    <img class="img-fluid" src="images/pekin.jpg" alt="pekin">
+                    <p>Пекин – столица Китая, история которой насчитывает три тысячелетия. Она славится как своими современными зданиями, так и древними архитектурными памятниками, среди которых величественный Запретный город – императорский дворец времен династий Мин и Цин. Поблизости от него раскинулась гигантская пешеходная площадь Тяньаньмэнь, где расположены мавзолей Мао Цзэдуна и Национальный музей Китая, экспозиция которого посвящена истории и культуре страны.</p>
+                    <p>Lorem ipsum dolor sit amet, cu vis alii debitis vocibus, idque aliquid commune ius ut, ut mutat fabulas accusata pro. Ex quodsi tincidunt usu. Nam id alia iudico consul. Libris laoreet scripserit nec id. Has magna pericula an, ex duo dolorum partiendo expetenda.</p>
+                    <p>Adhuc dicat iudico usu ex, quo te iusto eleifend. Has illud nominavi et. Id persius veritus eum. Ex antiopam erroribus inciderint sed, zril pertinacia mea an. Ius id illum choro argumentum. Nam et accusamus voluptaria philosophia, tritani molestie facilisi in eos, ei usu putent mnesarchum dissentias. Eum eu delicata sententiae.</p>
+                </div>
+                <div id="Sydney" class="tabcontent">
+                    <img class="img-fluid" src="images/sydney.jpg" alt="sydney">
+                    <p>Сидней – крупнейший город Австралии и столица штата Новый Южный Уэльс. Его главная достопримечательность – здание Сиднейской оперы, которое напоминает взметнувшиеся в небо паруса, вырастающие прямо из вод гавани. Дарлинг-Харбор и Круговая пристань – самые оживленные прибрежные районы Сиднея. Именно там находятся арочный мост Харбор-Бридж и Королевский ботанический сад. С открытой смотровой площадки "Скайуок" на Сиднейской башне открывается панорамный вид на город и его окрестности.</p>
+                    <p>Lorem ipsum dolor sit amet, ne nam ipsum virtute. Sint epicurei corrumpit no vel. Vim et nisl erat voluptatibus, mei id sale ludus. Quando everti sapientem ea cum, sed in oporteat liberavisse. Eam ne labores maluisset.</p>
+                    <p>Mea an quas idque quaestio. Ad case repudiare splendide sit, vis id facer primis. Sumo interesset conclusionemque ut vis, nec eu wisi utinam tibique, nec amet fuisset ex. Mei eu decore primis, simul omnes accusamus duo ut. Ex error aperiri pertinacia duo.</p>
+                </div>
+                <div id="Nuuk" class="tabcontent">
+                    <img class="img-fluid" src="images/nuuk.jpg" alt="nuuk">
+                    <p>Нуук или Готхоб — город, столица самоуправляемой территории Гренландия, а также центр бывшей одноимённой коммуны в составе территории Западная Гренландия. До 1979 года официально употреблялось название Готхоб; также, в источниках конца XIX — начала XX века, встречаются названия Годтааб и Годтхааб.</p>
+                    <p>Lorem ipsum dolor sit amet, an nusquam accusam nam, an nec omnes pertinax. Duo tantas habemus oporteat an, pri munere splendide dissentiunt ea, ea verterem comprehensam vix. Est eu solet sapientem assueverit, ad argumentum honestatis quo. Dicta concludaturque vis ex, pro tantas periculis scribentur ex. Eros antiopam vix ei.</p>
+                    <p>Qui eu scaevola periculis, sit labitur ceteros at, nec aliquid sapientem reprehendunt id. Ea imperdiet gloriatur duo, brute laboramus appellantur sea ex, tamquam malorum epicurei quo et. Usu in tamquam periculis. Eum voluptua lobortis pertinax te. Ex vim tollit latine scripserit, sea at inimicus consequuntur interpretaris.</p>
+                </div>
+                <div id="Dublin" class="tabcontent">
+                    <img class="img-fluid" src="images/dublin.jpg" alt="dublin">
+                    <p>Дублин, столица Республики Ирландия, расположен на восточном побережье острова Ирландия, в устье реки Лиффи. Среди его исторических сооружений – Дублинский замок, построенный в XIII веке, и величественный собор Святого Патрика, который датируется 1191 годом. В городе есть чудесные парки, например живописный парк Святого Стефана и огромный Феникс-парк. На территории второго расположен Дублинский зоопарк. С историей и культурой страны можно познакомиться в Национальном музее Ирландии.</p>
+                    <p>Lorem ipsum dolor sit amet, omittam convenire honestatis vis te, ad quo ridens facilisi electram. Malis facilisis ut vis, liberavisse philosophia te eum, cu vivendo aliquando nam. Eu veritus blandit deterruisset pro. Sed an tale novum erant, qualisque repudiare dignissim cu sit. Vix inani rationibus ea, vidit minim te est.</p>
+                    <p>Per et eleifend pertinacia. Cu sit vulputate consectetuer delicatissimi. Eum ut cibo veniam ceteros, has causae fastidii id, eos te congue postea. Mea te decore utinam periculis. Eu eos iisque noluisse dissentias. Graeci complectitur eum an, ad wisi dicta tollit duo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron text-center" style="margin-bottom:0;">
+            <p>©20XX Карагандинский государственный университет им. Е.А. Букетова</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
